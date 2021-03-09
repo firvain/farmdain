@@ -1,0 +1,26 @@
+{ 
+  "title": "Partnership",
+  "partners": [
+    {
+      "title": "DIMITRIOU & Co GP",
+      "subtitle": "DIMITRIOU dairy products",
+      "body": "",
+      "logo": "dimitriou-logo.png",
+      "link": "http://fetadimitriou.gr/"
+    },
+    {
+      "title":"SPECIAL ACCOUNT FOR RESEARCH FUNDS",
+      "subtitle": "ARISTOTLE UNIVERSITY OF THESSALONIKI",
+      "body": "",
+      "logo": "auth-logo.png",
+      "link": "https://www.auth.gr/"
+    },
+    {
+      "title": "SPECIAL ACCOUNT FOR RESEARCH FUNDS",
+      "subtitle": "UNIVERSITY OF WESTERN MACEDONIA",
+      "body": "",
+      "logo": "uwom-logo.png",
+      "link":"https://uowm.gr/"
+    }
+  ]
+}
