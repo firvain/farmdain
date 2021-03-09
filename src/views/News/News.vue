@@ -4,7 +4,7 @@
       <v-col cols="12" class="px-0">
         <h3 class="text-center">{{ $t("pages.news.projectNews") }}</h3>
       </v-col>
-      <v-col cols="8">
+      <v-col cols="12" :md="$vuetify.breakpoint.smAndUp ? 10 : 12">
         <v-timeline>
           <v-timeline-item
             v-for="(post, index) in newsItems"
@@ -27,7 +27,7 @@
               }}</span>
             </template>
             <v-card class="elevation-4">
-              <v-card-title class="headline primary white--text">
+              <v-card-title class="primary white--text">
                 {{ post.title }}
               </v-card-title>
               <v-img

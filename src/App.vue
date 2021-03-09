@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="white" active-class flat>
+    <v-app-bar app color="primary" dark flat>
       <div class="d-flex align-center">
         <v-img
           alt="FarmDain Logo"
@@ -11,13 +11,14 @@
           width="40"
         />
 
-        <v-toolbar-title shrink-on-scroll>FarmDain</v-toolbar-title>
+        <v-toolbar-title shrink-on-scroll dark>FarmDain</v-toolbar-title>
       </div>
 
       <v-spacer></v-spacer>
-
       <v-btn v-if="!isLogged" :to="{ path: '/login' }" text>
-        <span class="mr-2">{{ $t("user.login") }}</span>
+        <span v-if="$vuetify.breakpoint.mdAndUp" class="mr-2">{{
+          $t("user.login")
+        }}</span>
         <v-icon>mdi-login-variant</v-icon>
       </v-btn>
       <v-btn v-if="isLogged" @click="logout" text>
@@ -29,7 +30,7 @@
         <v-icon v-else>$GreekFlag</v-icon>
       </v-btn>
       <template v-slot:extension>
-        <v-tabs v-model="tab" centered>
+        <v-tabs v-model="tab" show-arrows center-active align-with-title>
           <v-tab v-for="(tab, index) in tabs" :key="index" :to="tab.path">
             {{ tab.text }}
           </v-tab>
@@ -92,6 +93,17 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+$body-font-family: "Open Sans", sans-serif;
+$title-font: "Open Sans", sans-serif;
+.v-application {
+  font-family: $body-font-family, sans-serif !important;
+  .title {
+    // To pin point specific classes of some components
+    font-family: $title-font, sans-serif !important;
+  }
+}
 .v-btn {
   text-transform: none !important;
 }
