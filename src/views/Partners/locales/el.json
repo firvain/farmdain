@@ -1,0 +1,27 @@
+{
+  "title": "Οι συνεργάτες του έργου",
+  "partners": [
+    {
+      "title": "ΔΗΜΗΤΡΙΟΥ ΚΑΙ ΣΙΑ Ο.Ε.",
+      "subtitle": "ΔΗΜΗΤΡΙΟΥ τυροκομικά",
+      "body": "",
+      "logo": "dimitriou-logo.png",
+      "link": "http://fetadimitriou.gr/"
+    },
+    {
+      "title":"ΕΙΔΙΚΟΣ ΛΟΓΑΡΙΑΣΜΟΣ ΚΟΝΔΥΛΙΩΝ ΕΡΕΥΝΑΣ",
+      "subtitle": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "body": "",
+      "logo": "auth-logo.png",
+      "link": "https://www.auth.gr/"
+    },
+    {
+      "title": "ΕΙΔΙΚΟΣ ΛΟΓΑΡΙΑΣΜΟΣ ΚΟΝΔΥΛΙΩΝ ΕΡΕΥΝΑΣ",
+      "subtitle": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "body":"",
+      "logo": "uwom-logo.png",
+      "link":"https://uowm.gr/"
+    }
+    
+  ]
+}
