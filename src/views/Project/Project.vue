@@ -4,10 +4,10 @@
       <v-col cols="12" class="px-0">
         <h2 class="text-center">{{ $t("pages.project.title") }}</h2>
       </v-col>
-      <v-col cols="8">
+      <v-col cols="12" md="8">
         <v-row v-for="(post, index) in posts" :key="index">
-          <v-col class="12">
-            <v-card class="mx-auto elevation-4" shaped>
+          <v-col cols="12" md="12">
+            <v-card class="mx-auto elevation-4" shaped outlined>
               <v-card-title
                 class="subtitle-2  white--text"
                 :class="index % 2 ? 'primary' : 'accent'"

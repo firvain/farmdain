@@ -9,9 +9,9 @@
         :key="index"
         cols="12"
         sm="12"
-        md="6"
+        md="5"
       >
-        <v-card class="mx-auto" outlined height="150">
+        <v-card class="mx-auto" height="150" elevation="2">
           <v-list-item two-line>
             <v-list-item-content>
               <v-list-item-title class="h3 mb-1">
@@ -41,6 +41,7 @@
           </v-list-item>
 
           <v-card-actions>
+            <v-spacer></v-spacer>
             <v-btn
               small
               text

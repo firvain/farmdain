@@ -3,7 +3,7 @@
     <v-card
       flat
       tile
-      class="primary lighten-1 white--text text-center mx-auto"
+      class="primary darken-2 white--text text-center mx-auto"
       width="100%"
     >
       <v-row
