@@ -4,7 +4,7 @@
       <v-col cols="12" class="px-0">
         <v-img
           :src="require('../../assets/cow-logo.jpg')"
-          alt="Mink Cage"
+          alt="Cow"
           class="my-3"
           height="400"
         />

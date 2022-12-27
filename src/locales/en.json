@@ -20,14 +20,14 @@
     }
   },
   "appfooter": {
-    "funding": "The project is funded by ROP Western Macedonia"
+    "funding": "The project was co-financed by the European Union (European Regional Development Fund - ERDF) and national funds, through the Operational Programme of Western Macedonia 2014-2020 (project code: DMR1-0016238)"
   },
   "contact": {
     "name": "Name",
     "email": "Email",
     "message": "Your Message",
     "submit": "submit",
-    "successSubmit": "Submitted Succesfully",
+    "successSubmit": "Submitted Successfully",
     "errorSubmit": "Something went wrong!"
   },
   "pages": {
